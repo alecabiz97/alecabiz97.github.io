@@ -1,0 +1,514 @@
+﻿{
+        "colazione": [
+          [
+        ["Pan Bauletto Integrale", 50],
+        ["Yogurt Greco 0%", 50],
+        ["Kiwi", 76],
+        ["Crema di Nocciola 100%", 15]
+      ],
+      [
+        ["Pan Bauletto Integrale", 60],
+        ["Marmellata Light S.Z", 50],
+        ["Yogurt Greco 0%", 60],
+        ["Crema di Nocciola 100%", 15]
+      ],
+      [
+        ["Pan Bauletto Integrale", 50],
+        ["Philadelphia Protein o Benessere", 50],
+        ["Kiwi", 76],
+        ["Burro di Arachidi", 15]
+      ],
+      [
+        ["Pan Bauletto Integrale", 60],
+        ["Philadelphia Protein o Benessere", 50],
+        ["Marmellata Light S.Z", 50],
+        ["Cioccolato Fondente 85%", 15]
+      ],
+      [
+        ["Pan Bauletto Integrale", 50],
+        ["Philadelphia Protein o Benessere", 50],
+        ["Kiwi", 76],
+        ["Cioccolato Fondente 85%", 5]
+      ],
+      [
+        ["Pan Bauletto Integrale", 55],
+        ["Yogurt Greco 0%", 50],
+        ["Marmellata Light S.Z", 50],
+        ["Cioccolato Fondente 85%", 20]
+      ],
+      [
+        ["Pan Bauletto Integrale", 45],
+        ["Yogurt Greco 0%", 50],
+        ["Kiwi", 76],
+        ["Cioccolato Fondente 85%", 20]
+      ],
+      [
+        ["Pan Bauletto Integrale", 35],
+        ["Yogurt Magro 0,1% Senza Lattosio", 130],
+        ["Kiwi", 76],
+        ["Cioccolato Fondente 85%", 20]
+      ],
+      [
+        ["Pan Bauletto Integrale", 50],
+        ["Yogurt Magro 0,1% Senza Lattosio", 80],
+        ["Kiwi", 76],
+        ["Burro di Arachidi", 20]
+      ],
+      [
+        ["Pan Bauletto Integrale", 50],
+        ["Yogurt Magro 0,1% Senza Lattosio", 100],
+        ["Kiwi", 76],
+        ["Crema di Nocciola 100%", 15]
+      ],
+      [
+        ["Pan Bauletto Integrale", 45],
+        ["Yogurt Magro 0,1% Senza Lattosio", 130],
+        ["Marmellata Light S.Z", 50],
+        ["Cioccolato Fondente 85%", 20]
+      ],
+      [
+        ["Pan Bauletto Integrale", 55],
+        ["Yogurt Magro 0,1% Senza Lattosio", 80],
+        ["Marmellata Light S.Z", 50],
+        ["Burro di Arachidi", 20]
+      ],
+      [
+        ["Pan Bauletto Integrale", 55],
+        ["Yogurt Magro 0,1% Senza Lattosio", 100],
+        ["Marmellata Light S.Z", 50],
+        ["Crema di Nocciola 100%", 15]
+      ],
+      [
+        ["Latte Parzialmente Scremato S.L", 250],
+        ["Cornflakes", 35],
+        ["Yogurt Greco 0%", 30],
+        ["Cioccolato Fondente 85%", 15]
+      ],
+      [
+        ["Latte Parzialmente Scremato S.L", 250],
+        ["Cornflakes", 35],
+        ["Yogurt Greco 0%", 30],
+        ["Nocciole", 12]
+      ],
+      [
+        ["Latte Parzialmente Scremato S.L", 250],
+        ["Cornflakes", 35],
+        ["Yogurt Greco 0%", 30],
+        ["Mandorle", 15]
+      ],
+      [
+        ["Wasa Integrale", 36],
+        ["Nutricotta", 80],
+        ["Marmellata Light S.Z", 50],
+        ["Cioccolato Fondente 85%", 20]
+      ],
+      [
+        ["Wasa Integrale", 36],
+        ["Philadelphia Senza Lattosio", 80],
+        ["Marmellata Light S.Z", 60],
+        ["Cioccolato Fondente 85%", 5]
+      ],
+      [
+        ["Wasa Integrale", 36],
+        ["Yogurt greco 0%", 70],
+        ["Marmellata Light S.Z", 50],
+        ["Cioccolato Fondente 85%", 25]
+      ],
+      [
+        ["Wasa Integrale", 27],
+        ["Yogurt Magro 0,1% Senza Lattosio", 125],
+        ["Marmellata Light S.Z", 60],
+        ["Cioccolato Fondente 85%", 25]
+      ],
+      [
+        ["Yogurt Magro 0,1% Senza Lattosio", 180],
+        ["Miele Millefiori", 5],
+        ["Fiocchi di Avena Bio", 10],
+        ["Mela", 150],
+        ["Crema di Nocciola 100%", 18]
+      ],
+      [
+        ["Yogurt Magro 0,1% Senza Lattosio", 170],
+        ["Miele Millefiori", 5],
+        ["Fiocchi di Avena Bio", 10],
+        ["Mela", 150],
+        ["Burro di Arachidi", 20]
+      ],
+      [
+        ["Yogurt Magro 0,1% Senza Lattosio", 180],
+        ["Miele Millefiori", 5],
+        ["Fiocchi di Avena Bio", 5],
+        ["Mela", 150],
+        ["Cioccolato Fondente 85%", 22]
+      ],
+      [
+        ["Gallette di Riso", 32],
+        ["Yogurt Magro 0,1% Senza Lattosio", 160],
+        ["Cacao amaro", 5],
+        ["Nocciole", 15]
+      ],
+      [
+        ["Gallette di Riso", 32],
+        ["Yogurt Magro 0,1% Senza Lattosio", 160],
+        ["Cacao amaro", 5],
+        ["Burro di Arachidi", 20]
+      ],
+      [
+        ["Gallette di Riso", 32],
+        ["Yogurt Magro 0,1% Senza Lattosio", 160],
+        ["Cacao amaro", 5],
+        ["Cioccolato Fondente 85%", 20]
+      ],
+      [
+        ["Formelle di Frumento Integrale", 19],
+        ["Latte Parzialmente Scremato S.L", 50],
+        ["Yogurt Magro 0,1% Senza Lattosio", 100],
+        ["Semi di Chia", 10],
+        ["Miele Millefiori", 10],
+        ["Crema di Nocciola 100%", 10],
+        ["Mirtilli", 50]
+      ],
+      [
+        ["Formelle di Frumento Integrale", 18],
+        ["Latte Parzialmente Scremato S.L", 50],
+        ["Yogurt Magro 0,1% Senza Lattosio", 110],
+        ["Semi di Chia", 10],
+        ["Miele Millefiori", 10],
+        ["Mirtilli", 50],
+        ["Cioccolato Fondente 85%", 18]
+      ],
+      [
+        ["Formelle di Frumento Integrale", 19],
+        ["Latte Parzialmente Scremato S.L", 50],
+        ["Yogurt Magro 0,1% Senza Lattosio", 100],
+        ["Semi di Chia", 10],
+        ["Miele Millefiori", 10],
+        ["Mirtilli", 50],
+        ["Burro di Arachidi", 16]
+      ],
+      [
+        ["Pan Bauletto Integrale", 50],
+        ["Uova M", 44],
+        ["Sale", 0.1],
+        ["Mela", 150],
+        ["Mandorle", 10]
+      ],
+      [
+        ["Pan Bauletto Integrale", 50],
+        ["Uova M", 44],
+        ["Sale", 0.1],
+        ["Mela", 150],
+        ["Burro di Arachidi", 10]
+      ],
+      [
+        ["Pan Bauletto Integrale", 50],
+        ["Uova M", 44],
+        ["Sale", 0.1],
+        ["Mela", 150],
+        ["Cioccolato Fondente 85%", 10]
+      ]
+              ],
+        "pranzo": [
+          [
+  ["Verdure", 150], ["Patate Crude", 150], ["Pane integrale", 50], ["Fiocchi di Latte Senza Lattosio", 125], ["Grana", 20], ["Olio", 10]
+],
+[
+  ["Verdure", 150], ["Patate Crude", 150], ["Pane integrale", 50], ["Nutricotta", 150], ["Grana", 25], ["Olio", 8]
+],
+[
+  ["Minestrone Tradizionale", 250], ["Pane integrale", 65], ["Grana", 20], ["Nutricotta", 150], ["Olio", 9]
+],
+[
+  ["Minestrone Tradizionale", 250], ["Pane integrale", 65], ["Fiocchi di Latte Senza Lattosio", 125], ["Grana", 20], ["Olio", 9]
+],
+[
+  ["Cous cous", 75], ["Tonno al Naturale", 112], ["Verdure", 150], ["Olio", 17]
+],
+[
+  ["Cous cous", 75], ["Tonno Pinne Gialle", 110], ["Verdure", 150], ["Olio", 16]
+],
+[
+  ["Cous cous", 75], ["Petto di pollo", 100], ["Verdure", 150], ["Olio", 17]
+],
+[
+  ["Cous cous", 75], ["Filetto di Salmone Selvaggio", 115], ["Verdure", 150], ["Olio", 15]
+],
+[
+  ["Quinoa Bianca", 95], ["Verdure", 150], ["Nutricotta", 150], ["Grana", 15], ["Olio", 5]
+],
+[
+  ["Quinoa Bianca", 95], ["Verdure", 150], ["Olio", 10], ["Filetto di Salmone Selvaggio", 100]
+],
+[
+  ["Quinoa Bianca", 95], ["Petto di pollo", 90], ["Verdure", 150], ["Olio", 10]
+],
+[
+  ["Pasta Integrale", 85], ["Petto di pollo", 50], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
+],
+[
+  ["Pasta Integrale", 85], ["Tonno Pinne Gialle", 100], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
+],
+[
+  ["Pasta Integrale", 85], ["Filetto di Salmone Selvaggio", 100], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
+],
+[
+  ["Pasta", 80], ["Sugo (Senza Soffritto)", 150], ["Macinato Scelto di Bovino Adulto", 80], ["Grana", 15]
+],
+[
+  ["Pasta", 80], ["Petto di pollo", 50], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
+],
+[
+  ["Pasta", 80], ["Tonno Pinne Gialle", 100], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
+],
+[
+  ["Pasta", 80], ["Filetto di Salmone Selvaggio", 100], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
+],
+[
+  ["Fregola Sarda Integrale", 90], ["Petto di pollo", 50], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
+],
+[
+  ["Fregola Sarda Integrale", 90], ["Tonno Pinne Gialle", 100], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
+],
+[
+  ["Fregola Sarda Integrale", 90], ["Filetto di Salmone Selvaggio", 100], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
+],
+[
+  ["Pasta di Grano Saraceno", 80], ["Merluzzo", 130], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
+],
+[
+  ["Pasta di Grano Saraceno", 80], ["Petto di pollo", 100], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
+],
+[
+  ["Pasta di Grano Saraceno", 80], ["Tonno al Naturale", 112], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
+],
+[
+  ["Pasta di Grano Saraceno", 80], ["Filetto di Salmone Selvaggio", 115], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
+],
+[
+  ["Riso Venere Integrale", 85], ["Gamberetti Sgusciati", 100], ["Verdure", 150], ["Olio", 15]
+],
+[
+  ["Riso Venere Integrale", 90], ["Tonno Pinne Gialle", 115], ["Verdure", 150], ["Olio", 15]
+],
+[
+  ["Riso Venere Integrale", 90], ["Filetto di Salmone Selvaggio", 115], ["Verdure", 150], ["Olio", 15]
+],
+[
+  ["Riso Venere Integrale", 90], ["Merluzzo", 140], ["Verdure", 150], ["Olio", 15]
+],
+[
+  ["Orzo 10 Minuti", 75], ["Nutricotta", 160], ["Parmigiano", 25], ["Verdure", 150], ["Olio", 8]
+],
+[
+  ["Farro 10 Minuti", 80], ["Salmone Fresco", 100], ["Verdure", 150], ["Olio", 5]
+],
+[
+  ["Farro 10 Minuti", 80], ["Salmone selvaggio", 110], ["Verdure", 150], ["Olio", 14]
+],
+[
+  ["Patate Crude", 210], ["Ceci Cotti al Vapore", 115], ["Petto di pollo", 90], ["Verdure", 150], ["Olio", 15]
+],
+[
+  ["Patate Crude", 180], ["Ceci Cotti al Vapore", 115], ["Nutricotta", 140], ["Verdure", 150], ["Grana", 25], ["Olio", 7]
+],
+[
+  ["Patate Crude", 210], ["Ceci Cotti al Vapore", 115], ["Filetto di Salmone Selvaggio", 100], ["Verdure", 150], ["Olio", 14]
+],
+[
+  ["Patate Crude", 210], ["Ceci Cotti al Vapore", 115], ["Merluzzo", 130], ["Verdure", 150], ["Olio", 15]
+],
+[
+  ["Patate Crude", 210], ["Ceci Cotti al Vapore", 115], ["Tonno al Naturale", 112], ["Verdure", 150], ["Olio", 15]
+],
+[
+  ["Patate Crude", 200], ["Nutricotta", 140], ["Verdure", 150], ["Grana", 25], ["Olio", 7], ["Lenticchie Cotte al Vapore", 115]
+],
+[
+  ["Patate Crude", 220], ["Lenticchie Cotte al Vapore", 115], ["Petto di pollo", 90], ["Verdure", 150], ["Olio", 17]
+],
+[
+  ["Gnocchi di Patate", 180], ["Philadelphia Protein o Benessere", 100], ["Parmigiano", 25], ["Verdure", 150], ["Olio", 8]
+],
+[
+  ["Gnocchi di Patate", 180], ["Nutricotta", 150], ["Parmigiano", 25], ["Verdure", 150], ["Olio", 9]
+]
+        ],
+        "spuntino": [
+          [
+  ["Kefir al Naturale", 200], ["Yogurt greco 0%", 80], ["Frutta fresca", 200], ["Miele", 10], ["Mandorle", 6]
+],
+[
+  ["Kefir al Naturale", 200], ["Yogurt greco 0%", 60], ["Frutta fresca", 200], ["Miele", 10], ["Burro di Arachidi", 7]
+],
+[
+  ["Kefir al Naturale", 200], ["Yogurt greco 0%", 70], ["Frutta fresca", 200], ["Miele", 10], ["Nocciole", 6]
+],
+[
+  ["Kefir al Naturale", 200], ["Yogurt greco 0%", 60], ["Frutta fresca", 200], ["Miele", 10], ["Cioccolato Fondente 85%", 10]
+],
+[
+  ["Latte Parzialmente Scremato S.L", 150], ["Yogurt greco 0%", 100], ["Banana M", 120], ["Cacao amaro", 5], ["Miele", 5], ["Mandorle", 6]
+],
+[
+  ["Latte Parzialmente Scremato S.L", 150], ["Yogurt greco 0%", 100], ["Frutta fresca", 200], ["Cacao amaro", 5], ["Miele", 10], ["Mandorle", 6]
+],
+[
+  ["Yogurt Magro 0,1% Senza Lattosio", 180], ["Yogurt greco 0%", 70], ["Frutta fresca", 200], ["Gallette di Riso", 8], ["Nocciole", 10]
+],
+[
+  ["Yogurt Magro 0,1% Senza Lattosio", 180], ["Yogurt greco 0%", 50], ["Frutta fresca", 180], ["Miele", 10], ["Burro di Arachidi", 15]
+],
+[
+  ["Yogurt Magro 0,1% Senza Lattosio", 180], ["Yogurt greco 0%", 70], ["Frutta fresca", 180], ["Nocciole", 10], ["Miele", 10]
+],
+[
+  ["Yogurt Magro 0,1% Senza Lattosio", 180], ["Yogurt greco 0%", 70], ["Frutta fresca", 170], ["Miele", 10], ["Cioccolato Fondente 85%", 15]
+],
+[
+  ["Yogurt Magro 0,1% Senza Lattosio", 180], ["Yogurt greco 0%", 60], ["Frutta fresca", 190], ["Miele", 10], ["Mandorle", 15]
+],
+[
+  ["Pan Bauletto Integrale", 75], ["Nutricotta", 80], ["Granella di Nocciole Tostate", 8], ["Marmellata Light S.Z", 40]
+],
+[
+  ["Pan Bauletto Integrale", 75], ["Yogurt greco 0%", 80], ["Miele", 5], ["Cioccolato Fondente 85%", 10]
+],
+[
+  ["Pan Bauletto Integrale", 75], ["Nutricotta", 80], ["Burro di Arachidi", 10], ["Miele", 7]
+],
+[
+  ["Gallette di Riso", 24], ["Yogurt Greco 0%", 120], ["Mela M", 150], ["Mandorle", 12]
+],
+[
+  ["Gallette di Riso", 24], ["Yogurt greco 0%", 120], ["Datteri", 25], ["Mandorle", 14]
+],
+[
+  ["Pan Bauletto Integrale", 50], ["Grana", 15], ["Nutricotta", 60], ["Miele Millefiori", 20]
+],
+[
+  ["Gallette di Riso", 48], ["Grana", 20], ["Nutricotta", 50]
+]
+        ],
+        "cena": [
+          [
+  ["Verdure", 150], ["Patate Crude", 180], ["Pane Integrale", 55], ["Fiocchi di Latte Senza Lattosio", 100], ["Parmigiano", 20], ["Olio", 5]
+],
+[
+  ["Verdure", 150], ["Patate Crude", 150], ["Pane Integrale", 65], ["Nutricotta", 110], ["Parmigiano", 20], ["Olio", 5]
+],
+[
+  ["Verdure", 150], ["Patate Crude", 150], ["Pane Integrale", 65], ["Fiocchi di Latte Senza Lattosio", 150], ["Olio", 10]
+],
+[
+  ["Verdure", 150], ["Patate Crude", 150], ["Pane Integrale", 65], ["Nutricotta", 150], ["Olio", 10]
+],
+[
+  ["Verdure", 150], ["Patate Crude", 150], ["Pane Integrale", 65], ["Ricotta Senza Lattosio", 120]
+],
+[
+  ["Verdure", 150], ["Pane Integrale", 70], ["Patate Crude", 150], ["Uova M", 88], ["Olio", 5]
+],
+[
+  ["Minestrone Tradizionale", 250], ["Pane Integrale", 85], ["Grana", 20], ["Fiocchi di Latte Senza Lattosio", 100], ["Olio", 5]
+],
+[
+  ["Minestrone Tradizionale", 250], ["Pane Integrale", 85], ["Grana", 20], ["Nutricotta", 110]
+],
+[
+  ["Minestrone Tradizionale", 250], ["Pane Integrale", 85], ["Fiocchi di Latte Senza Lattosio", 150], ["Olio", 10]
+],
+[
+  ["Minestrone Tradizionale", 250], ["Pane Integrale", 85], ["Nutricotta", 150], ["Grana", 15], ["Olio", 5]
+],
+[
+  ["Minestrone Tradizionale", 250], ["Pane Integrale", 90], ["Mozzarella Light", 100]
+],
+[
+  ["Brodo di Pollo", 300], ["Pasta per Minestra", 30], ["Patata Bollita", 120], ["Verdura Cotta", 150], ["Bollito di Pollo", 70], ["Parmigiano", 15]
+],
+[
+  ["Brodo di Pollo", 300], ["Pasta per Minestra", 30], ["Patata Bollita", 120], ["Verdura Cotta", 150], ["Bollito di Pollo", 80], ["Olio", 5]
+],
+[
+  ["Brodo vegetale", 300], ["Pasta per Minestra", 30], ["Patata Bollita", 100], ["Verdura Cotta", 150], ["Nutricotta", 150], ["Parmigiano", 15]
+],
+[
+  ["Brodo vegetale", 300], ["Pasta per Minestra", 30], ["Patata Bollita", 100], ["Fiocchi di Latte Senza Lattosio", 150], ["Verdura Cotta", 150], ["Olio", 5]
+],
+[
+  ["Patate Crude", 350], ["Petto di pollo", 100], ["Verdure", 150], ["Olio", 10]
+],
+[
+  ["Patate Crude", 350], ["Carne di vitello magra", 120], ["Verdure", 150], ["Olio", 10]
+],
+[
+  ["Patate Crude", 350], ["Carne di vitello semigrassa", 120], ["Verdure", 150], ["Olio", 5]
+],
+[
+  ["Patate Crude", 350], ["Verdure", 150], ["Tonno Pinne Gialle", 115], ["Olio", 10]
+],
+[
+  ["Patate Crude", 350], ["Verdure", 150], ["Filetto di Salmone Selvaggio", 115], ["Olio", 10]
+],
+[
+  ["Patate Crude", 350], ["Verdure", 150], ["Salmone Fresco", 120]
+],
+[
+  ["Patate Crude", 350], ["Verdure", 150], ["Uova M", 88], ["Albume d'uovo", 120], ["Olio", 5]
+],
+[
+  ["Lenticchie Cotte al Vapore", 100], ["Fiocchi di Latte Senza Lattosio", 150], ["Verdure", 150], ["Pane Comune", 85], ["Olio", 5]
+],
+[
+  ["Riso Basmati", 75], ["Merluzzo surgelato", 150], ["Verdure", 150], ["Olio", 15]
+],
+[
+  ["Pane Integrale", 120], ["Uova M", 44], ["Albume d'uovo", 150], ["Verdure", 200], ["Olio", 5]
+],
+[
+  ["Cous cous", 65], ["Piselli", 80], ["Verdure", 100], ["Fiocchi di Latte Senza Lattosio", 150], ["Olive Nere", 15], ["Olio", 10]
+],
+[
+  ["Pane Integrale", 120], ["Uova M", 88], ["Albume d'uovo", 80], ["Passata di Pomodoro", 200]
+],
+[
+  ["Orzo 10 Minuti", 80], ["Verdure", 200], ["Tonno al Naturale", 56], ["Nutricotta", 120], ["Olio", 10]
+],
+[
+  ["Orzo 10 Minuti", 80], ["Tonno Pinne Gialle", 120], ["Verdure", 200], ["Olio", 10]
+],
+[
+  ["Orzo 10 Minuti", 80], ["Verdure", 200], ["Salmone Fresco", 120]
+],
+[
+  ["Orzo 10 Minuti", 80], ["Verdure", 200], ["Filetto di Salmone Selvaggio", 120], ["Olio", 10]
+],
+[
+  ["Orzo 10 Minuti", 80], ["Verdure", 200], ["Petto di pollo", 120], ["Olio", 10]
+],
+[
+  ["Orzo 10 Minuti", 80], ["Verdure", 150], ["Fiocchi di Latte Senza Lattosio", 150], ["Nutricotta", 80], ["Olio", 10]
+],
+[
+  ["Farro 10 Minuti", 80], ["Verdure", 200], ["Tonno al Naturale", 56], ["Nutricotta", 120], ["Olio", 10]
+],
+[
+  ["Quinoa Bianca", 100], ["Verdure", 200], ["Tonno al Naturale", 56], ["Nutricotta", 120], ["Olio", 10]
+],
+[
+  ["Quinoa Bianca", 105], ["Tonno Pinne Gialle", 120], ["Verdure", 200], ["Olio", 10]
+],
+[
+  ["Quinoa Bianca", 105], ["Verdure", 200], ["Salmone Fresco", 100]
+],
+[
+  ["Quinoa Bianca", 105], ["Verdure", 200], ["Filetto di Salmone Selvaggio", 100], ["Olio", 10]
+],
+[
+  ["Quinoa Bianca", 105], ["Verdure", 200], ["Petto di pollo", 80], ["Olio", 10]
+],
+[
+  ["Quinoa Bianca", 100], ["Verdure", 150], ["Fiocchi di Latte Senza Lattosio", 150], ["Olio", 10]
+]
+        ]
+      }

@@ -1,0 +1,165 @@
+﻿<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dieta</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    />    <link rel="stylesheet" href="style.css" />\n\n</head>
+  <body>
+    <div class="board">
+      <div class="navbar">
+        <button class="nav-btn active" data-category="colazione">Colazione</button>
+        <button class="nav-btn" data-category="pranzo">Pranzo</button>
+        <button class="nav-btn" data-category="spuntino">Spuntino</button>
+        <button class="nav-btn" data-category="cena">Cena</button>
+        <button class="theme-toggle" id="themeToggle" aria-label="Cambia tema">🌙</button>
+      </div>
+
+      <div class="controls">
+        <label for="filterSelect">Filtra ingrediente</label>
+        <select id="filterSelect"></select>
+      </div>
+
+      <div class="content">
+        <div id="boxGrid" class="box-grid"></div>
+      </div>
+    </div>
+
+    
+
+    <script>
+      let data = {};
+      const navButtons = document.querySelectorAll(".nav-btn");
+      const boxGrid = document.getElementById("boxGrid");
+      const filterSelect = document.getElementById("filterSelect");
+      const themeToggle = document.getElementById("themeToggle");
+      let currentCategory = "colazione";
+      let currentCombos = [];
+
+      function pickRandomCombos(list, count = 6) {
+        const shuffled = [...list].sort(() => 0.5 - Math.random());
+        return shuffled.slice(0, Math.min(count, shuffled.length));
+      }
+
+      function formatItem(item) {
+        if (Array.isArray(item)) {
+          const [name, grams] = item;
+          return `${name} (${grams}g)`;
+        }
+        return String(item);
+      }
+
+      function render(combos) {
+        boxGrid.innerHTML = "";
+        combos.forEach((combo) => {
+          const box = document.createElement("div");
+          box.className = "box";
+          const list = document.createElement("ul");
+          combo.forEach((item) => {
+            const li = document.createElement("li");
+            if (Array.isArray(item)) {
+              const name = document.createElement("span");
+              name.className = "ingredient-name";
+              name.textContent = item[0];
+              const weight = document.createElement("span");
+              weight.className = "ingredient-weight";
+              weight.textContent = `${item[1]}g`;
+              li.appendChild(name);
+              li.appendChild(weight);
+            } else {
+              const text = document.createElement("span");
+              text.className = "ingredient-name";
+              text.textContent = String(item);
+              li.appendChild(text);
+            }
+            list.appendChild(li);
+          });
+          box.appendChild(list);
+          boxGrid.appendChild(box);
+        });
+      }
+
+      function buildIngredientOptions(category) {
+        const allIngredients = data[category]
+          .flat()
+          .map((item) => normalizeIngredient(item));
+        const unique = Array.from(new Set(allIngredients)).sort();
+
+        filterSelect.innerHTML = "";
+        const allOption = document.createElement("option");
+        allOption.value = "";
+        allOption.textContent = "Tutti gli ingredienti";
+        filterSelect.appendChild(allOption);
+
+        unique.forEach((ingredient) => {
+          const option = document.createElement("option");
+          option.value = ingredient;
+          option.textContent = ingredient;
+          filterSelect.appendChild(option);
+        });
+      }
+
+      function normalizeIngredient(value) {
+        if (Array.isArray(value)) {
+          return String(value[0]).trim().toLowerCase();
+        }
+        return value
+          .replace(/\s*\([^)]*g\)\s*/gi, "")
+          .replace(/\s+/g, " ")
+          .trim()
+          .toLowerCase();
+      }
+
+      function applyFilter() {
+        const term = filterSelect.value.trim().toLowerCase();
+
+        let filtered = [...currentCombos];
+        if (term) {
+          filtered = filtered.filter((combo) =>
+            combo.some((item) => normalizeIngredient(item).includes(term))
+          );
+        }
+
+        render(filtered);
+      }
+
+      function setActiveButton(category) {
+        navButtons.forEach((btn) => {
+          btn.classList.toggle("active", btn.dataset.category === category);
+        });
+      }
+
+      function generateFor(category) {
+        currentCategory = category;
+        setActiveButton(category);
+        currentCombos = [...data[category]];
+        buildIngredientOptions(category);
+        applyFilter();
+      }
+
+      navButtons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          generateFor(btn.dataset.category);
+        });
+      });
+
+      filterSelect.addEventListener("change", applyFilter);
+      themeToggle.addEventListener("click", () => {
+        const isLight = document.body.classList.toggle("light");
+        themeToggle.textContent = isLight ? "☀️" : "🌙";
+      });
+      async function loadData() {
+        const response = await fetch("dieta.json");
+        data = await response.json();
+        generateFor("colazione");
+      }
+
+      loadData();
+    </script>
+  </body>
+</html>
+
+
