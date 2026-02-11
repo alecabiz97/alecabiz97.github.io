@@ -550,21 +550,20 @@
 [
   ["Quinoa Bianca", 100], ["Verdure", 150], ["Fiocchi di Latte Senza Lattosio", 150], ["Olio", 10]
 ],
-
-  [
-    ["Farina per Polenta", 75], ["Nutricotta", 160], ["Parmigiano", 25], ["Verdure", 150], ["Olio", 8]
-  ],
-  [
-    ["Farina per Polenta", 75], ["Tonno al Naturale", 100], ["Nutricotta", 70], ["Verdure", 150], ["Olio", 15]
-  ],
-  [
-    ["Farina per Polenta", 75], ["Tonno Pinne Gialle", 120], ["Verdure", 150], ["Olio", 15]
-  ],
-  [
-    ["Farina per Polenta", 75], ["Petto di pollo", 110], ["Verdure", 150], ["Olio", 16]
-  ],
-  [
-    ["Farina per Polenta", 75], ["Filetto di Salmone Selvaggio", 115], ["Verdure", 150], ["Olio", 15]
-  ]
+[
+  ["Farina per Polenta", 75], ["Nutricotta", 160], ["Parmigiano", 25], ["Verdure", 150], ["Olio", 8]
+],
+[
+  ["Farina per Polenta", 75], ["Tonno al Naturale", 100], ["Nutricotta", 70], ["Verdure", 150], ["Olio", 15]
+],
+[
+  ["Farina per Polenta", 75], ["Tonno Pinne Gialle", 120], ["Verdure", 150], ["Olio", 15]
+],
+[
+  ["Farina per Polenta", 75], ["Petto di pollo", 110], ["Verdure", 150], ["Olio", 16]
+],
+[
+  ["Farina per Polenta", 75], ["Filetto di Salmone Selvaggio", 115], ["Verdure", 150], ["Olio", 15]
+]
         ]
       }
