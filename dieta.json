@@ -209,130 +209,170 @@
       ]
               ],
         "pranzo": [
-          [
-  ["Verdure", 150], ["Patate Crude", 150], ["Pane integrale", 50], ["Fiocchi di Latte Senza Lattosio", 125], ["Grana", 20], ["Olio", 10]
-],
-[
-  ["Verdure", 150], ["Patate Crude", 150], ["Pane integrale", 50], ["Nutricotta", 150], ["Grana", 25], ["Olio", 8]
-],
-[
-  ["Minestrone Tradizionale", 250], ["Pane integrale", 65], ["Grana", 20], ["Nutricotta", 150], ["Olio", 9]
-],
-[
-  ["Minestrone Tradizionale", 250], ["Pane integrale", 65], ["Fiocchi di Latte Senza Lattosio", 125], ["Grana", 20], ["Olio", 9]
-],
-[
-  ["Cous cous", 75], ["Tonno al Naturale", 112], ["Verdure", 150], ["Olio", 17]
-],
-[
-  ["Cous cous", 75], ["Tonno Pinne Gialle", 110], ["Verdure", 150], ["Olio", 16]
-],
-[
-  ["Cous cous", 75], ["Petto di pollo", 100], ["Verdure", 150], ["Olio", 17]
-],
-[
-  ["Cous cous", 75], ["Filetto di Salmone Selvaggio", 115], ["Verdure", 150], ["Olio", 15]
-],
-[
-  ["Quinoa Bianca", 95], ["Verdure", 150], ["Nutricotta", 150], ["Grana", 15], ["Olio", 5]
-],
-[
-  ["Quinoa Bianca", 95], ["Verdure", 150], ["Olio", 10], ["Filetto di Salmone Selvaggio", 100]
-],
-[
-  ["Quinoa Bianca", 95], ["Petto di pollo", 90], ["Verdure", 150], ["Olio", 10]
-],
-[
-  ["Pasta Integrale", 85], ["Petto di pollo", 50], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
-],
-[
-  ["Pasta Integrale", 85], ["Tonno Pinne Gialle", 100], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
-],
-[
-  ["Pasta Integrale", 85], ["Filetto di Salmone Selvaggio", 100], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
-],
-[
-  ["Pasta", 80], ["Sugo (Senza Soffritto)", 150], ["Macinato Scelto di Bovino Adulto", 80], ["Grana", 15]
-],
-[
-  ["Pasta", 80], ["Petto di pollo", 50], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
-],
-[
-  ["Pasta", 80], ["Tonno Pinne Gialle", 100], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
-],
-[
-  ["Pasta", 80], ["Filetto di Salmone Selvaggio", 100], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
-],
-[
-  ["Fregola Sarda Integrale", 90], ["Petto di pollo", 50], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
-],
-[
-  ["Fregola Sarda Integrale", 90], ["Tonno Pinne Gialle", 100], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
-],
-[
-  ["Fregola Sarda Integrale", 90], ["Filetto di Salmone Selvaggio", 100], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
-],
-[
-  ["Pasta di Grano Saraceno", 80], ["Merluzzo", 130], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
-],
-[
-  ["Pasta di Grano Saraceno", 80], ["Petto di pollo", 100], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
-],
-[
-  ["Pasta di Grano Saraceno", 80], ["Tonno al Naturale", 112], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
-],
-[
-  ["Pasta di Grano Saraceno", 80], ["Filetto di Salmone Selvaggio", 115], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
-],
-[
-  ["Riso Venere Integrale", 85], ["Gamberetti Sgusciati", 100], ["Verdure", 150], ["Olio", 15]
-],
-[
-  ["Riso Venere Integrale", 90], ["Tonno Pinne Gialle", 115], ["Verdure", 150], ["Olio", 15]
-],
-[
-  ["Riso Venere Integrale", 90], ["Filetto di Salmone Selvaggio", 115], ["Verdure", 150], ["Olio", 15]
-],
-[
-  ["Riso Venere Integrale", 90], ["Merluzzo", 140], ["Verdure", 150], ["Olio", 15]
-],
-[
-  ["Orzo 10 Minuti", 75], ["Nutricotta", 160], ["Parmigiano", 25], ["Verdure", 150], ["Olio", 8]
-],
-[
-  ["Farro 10 Minuti", 80], ["Salmone Fresco", 100], ["Verdure", 150], ["Olio", 5]
-],
-[
-  ["Farro 10 Minuti", 80], ["Salmone selvaggio", 110], ["Verdure", 150], ["Olio", 14]
-],
-[
-  ["Patate Crude", 210], ["Ceci Cotti al Vapore", 115], ["Petto di pollo", 90], ["Verdure", 150], ["Olio", 15]
-],
-[
-  ["Patate Crude", 180], ["Ceci Cotti al Vapore", 115], ["Nutricotta", 140], ["Verdure", 150], ["Grana", 25], ["Olio", 7]
-],
-[
-  ["Patate Crude", 210], ["Ceci Cotti al Vapore", 115], ["Filetto di Salmone Selvaggio", 100], ["Verdure", 150], ["Olio", 14]
-],
-[
-  ["Patate Crude", 210], ["Ceci Cotti al Vapore", 115], ["Merluzzo", 130], ["Verdure", 150], ["Olio", 15]
-],
-[
-  ["Patate Crude", 210], ["Ceci Cotti al Vapore", 115], ["Tonno al Naturale", 112], ["Verdure", 150], ["Olio", 15]
-],
-[
-  ["Patate Crude", 200], ["Nutricotta", 140], ["Verdure", 150], ["Grana", 25], ["Olio", 7], ["Lenticchie Cotte al Vapore", 115]
-],
-[
-  ["Patate Crude", 220], ["Lenticchie Cotte al Vapore", 115], ["Petto di pollo", 90], ["Verdure", 150], ["Olio", 17]
-],
-[
-  ["Gnocchi di Patate", 180], ["Philadelphia Protein o Benessere", 100], ["Parmigiano", 25], ["Verdure", 150], ["Olio", 8]
-],
-[
-  ["Gnocchi di Patate", 180], ["Nutricotta", 150], ["Parmigiano", 25], ["Verdure", 150], ["Olio", 9]
-]
-        ],
+         
+  [
+    ["Verdure", 150], ["Patate Crude", 270], ["Pane integrale", 50], ["Fiocchi di Latte Senza Lattosio", 150], ["Grana", 20], ["Olio", 10]
+  ],
+  [
+    ["Verdure", 150], ["Patate Crude", 270], ["Pane integrale", 50], ["Nutricotta", 170], ["Grana", 25], ["Olio", 8]
+  ],
+  [
+    ["Minestrone Tradizionale", 250], ["Pane integrale", 100], ["Grana", 20], ["Nutricotta", 150], ["Olio", 9]
+  ],
+  [
+    ["Minestrone Tradizionale", 250], ["Pane integrale", 100], ["Fiocchi di Latte Senza Lattosio", 125], ["Grana", 20], ["Olio", 9]
+  ],
+  [
+    ["Cous cous", 100], ["Tonno al Naturale", 112], ["Verdure", 150], ["Olio", 17]
+  ],
+  [
+    ["Cous cous", 100], ["Tonno Pinne Gialle", 110], ["Verdure", 150], ["Olio", 16]
+  ],
+  [
+    ["Cous cous", 100], ["Petto di pollo", 100], ["Verdure", 150], ["Olio", 17]
+  ],
+  [
+    ["Cous cous", 100], ["Filetto di Salmone Selvaggio", 115], ["Verdure", 150], ["Olio", 15]
+  ],
+  [
+    ["Quinoa Bianca", 95], ["Verdure", 150], ["Nutricotta", 150], ["Grana", 15], ["Olio", 5], ["Pane Integrale", 40]
+  ],
+  [
+    ["Quinoa Bianca", 95], ["Verdure", 150], ["Olio", 10], ["Filetto di Salmone Selvaggio", 100], ["Pane integrale", 40]
+  ],
+  [
+    ["Quinoa Bianca", 95], ["Petto di pollo", 90], ["Verdure", 150], ["Olio", 9], ["Pane Integrale", 45]
+  ],
+  [
+    ["Pasta Integrale", 120], ["Petto di pollo", 90], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
+  ],
+  [
+    ["Pasta Integrale", 120], ["Tonno Pinne Gialle", 100], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
+  ],
+  [
+    ["Pasta Integrale", 120], ["Filetto di Salmone Selvaggio", 100], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
+  ],
+  [
+    ["Pasta", 105], ["Sugo (Senza Soffritto)", 150], ["Macinato Scelto di Bovino Adulto", 90], ["Grana", 15]
+  ],
+  [
+    ["Pasta", 105], ["Petto di pollo", 100], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
+  ],
+  [
+    ["Pasta", 105], ["Tonno Pinne Gialle", 110], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
+  ],
+  [
+    ["Pasta", 105], ["Filetto di Salmone Selvaggio", 115], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
+  ],
+  [
+    ["Pasta", 105], ["Verdure", 150], ["Gamberetti Sgusciati", 120], ["Bottarga", 20], ["Olio", 8]
+  ],
+  [
+    ["Fregola Sarda Integrale", 115], ["Petto di pollo", 90], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
+  ],
+  [
+    ["Fregola Sarda Integrale", 115], ["Tonno Pinne Gialle", 100], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
+  ],
+  [
+    ["Fregola Sarda Integrale", 105], ["Filetto di Salmone Selvaggio", 105], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 10]
+  ],
+  [
+    ["Fregola Sarda Integrale", 115], ["Verdure", 150], ["Bottarga", 20], ["Gamberetti Sgusciati", 120], ["Nutricotta", 30], ["Olio", 10]
+  ],
+  [
+    ["Pasta di Grano Saraceno", 115], ["Merluzzo", 140], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 9]
+  ],
+  [
+    ["Pasta di Grano Saraceno", 115], ["Merluzzo", 110], ["Verdure", 150], ["Bottarga", 20], ["Olio", 9]
+  ],
+  [
+    ["Pasta di Grano Saraceno", 115], ["Petto di pollo", 100], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 9]
+  ],
+  [
+    ["Pasta di Grano Saraceno", 115], ["Tonno al Naturale", 112], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 9]
+  ],
+  [
+    ["Pasta di Grano Saraceno", 115], ["Filetto di Salmone Selvaggio", 115], ["Pesto alla genovese", 10], ["Verdure", 150], ["Olio", 9]
+  ],
+  [
+    ["Orzo 10 Minuti", 105], ["Nutricotta", 200], ["Parmigiano", 25], ["Verdure", 150], ["Olio", 8]
+  ],
+  [
+    ["Farro 10 Minuti", 110], ["Salmone Fresco", 110], ["Verdure", 150], ["Olio", 5]
+  ],
+  [
+    ["Farro 10 Minuti", 110], ["Salmone selvaggio", 110], ["Verdure", 150], ["Olio", 14]
+  ],
+  [
+    ["Riso Venere Integrale", 125], ["Gamberetti Sgusciati", 100], ["Nutricotta", 130], ["Verdure", 150], ["Olio", 14]
+  ],
+  [
+    ["Riso Venere Integrale", 90], ["Tonno Pinne Gialle", 125], ["Verdure", 150], ["Olio", 14]
+  ],
+  [
+    ["Riso Venere Integrale", 125], ["Filetto di Salmone Selvaggio", 130], ["Verdure", 150], ["Olio", 14]
+  ],
+  [
+    ["Riso Venere Integrale", 125], ["Merluzzo", 160], ["Verdure", 150], ["Olio", 14]
+  ],
+  [
+    ["Patate Crude", 210], ["Ceci Cotti al Vapore", 115], ["Petto di pollo", 90], ["Verdure", 150], ["Olio", 14], ["Pane Integrale", 40]
+  ],
+  [
+    ["Patate Crude", 180], ["Ceci Cotti al Vapore", 115], ["Nutricotta", 140], ["Verdure", 150], ["Grana", 25], ["Olio", 5], ["Pane Integrale", 40]
+  ],
+  [
+    ["Patate Crude", 210], ["Ceci Cotti al Vapore", 115], ["Filetto di Salmone Selvaggio", 100], ["Verdure", 150], ["Olio", 13], ["Pane Integrale", 40]
+  ],
+  [
+    ["Patate Crude", 210], ["Ceci Cotti al Vapore", 115], ["Merluzzo", 130], ["Verdure", 150], ["Olio", 13], ["Pane Integrale", 40]
+  ],
+  [
+    ["Patate Crude", 210], ["Ceci Cotti al Vapore", 115], ["Tonno al Naturale", 112], ["Verdure", 150], ["Olio", 13], ["Pane Integrale", 40]
+  ],
+  [
+    ["Patate Crude", 200], ["Nutricotta", 140], ["Verdure", 150], ["Grana", 25], ["Olio", 7], ["Lenticchie Cotte al Vapore", 115], ["Pane Integrale", 40]
+  ],
+  [
+    ["Patate Crude", 220], ["Lenticchie Cotte al Vapore", 115], ["Petto di pollo", 90], ["Verdure", 150], ["Olio", 15], ["Pane Integrale", 40]
+  ],
+  [
+    ["Patate Crude", 210], ["Fagioli Borlotti", 140], ["Petto di pollo", 80], ["Verdure", 150], ["Pane Integrale", 40], ["Olio", 14]
+  ],
+  [
+    ["Patate Crude", 180], ["Fagioli Borlotti", 140], ["Nutricotta", 120], ["Verdure", 150], ["Grana", 25], ["Pane Integrale", 40], ["Olio", 7]
+  ],
+  [
+    ["Patate Crude", 210], ["Fagioli Borlotti", 140], ["Filetto di Salmone Selvaggio", 90], ["Verdure", 150], ["Pane Integrale", 40], ["Olio", 15]
+  ],
+  [
+    ["Patate Crude", 210], ["Fagioli Borlotti", 140], ["Merluzzo", 110], ["Verdure", 150], ["Pane Integrale", 40], ["Olio", 15]
+  ],
+  [
+    ["Patate Crude", 210], ["Fagioli Borlotti", 140], ["Tonno al Naturale", 90], ["Verdure", 150], ["Pane Integrale", 40], ["Olio", 15]
+  ],
+  [
+    ["Gnocchi di Patate", 240], ["Philadelphia Protein o Benessere", 100], ["Parmigiano", 25], ["Verdure", 150], ["Olio", 7]
+  ],
+  [
+    ["Gnocchi di Patate", 240], ["Nutricotta", 160], ["Parmigiano", 25], ["Verdure", 150], ["Olio", 8]
+  ],
+  [
+    ["Farina per Polenta", 95], ["Nutricotta", 160], ["Parmigiano", 25], ["Verdure", 150], ["Olio", 8]
+  ],
+  [
+    ["Farina per Polenta", 100], ["Tonno al Naturale", 112], ["Nutricotta", 70], ["Verdure", 150], ["Olio", 15]
+  ],
+  [
+    ["Farina per Polenta", 100], ["Tonno Pinne Gialle", 120], ["Verdure", 150], ["Olio", 15]
+  ],
+  [
+    ["Farina per Polenta", 100], ["Petto di pollo", 125], ["Verdure", 150], ["Olio", 16]
+  ],
+  [
+    ["Farina per Polenta", 100], ["Filetto di Salmone Selvaggio", 130], ["Verdure", 150], ["Olio", 15]
+  ]
+              ],
         "spuntino": [
           [
   ["Kefir al Naturale", 200], ["Yogurt greco 0%", 80], ["Frutta fresca", 200], ["Miele", 10], ["Mandorle", 6]
