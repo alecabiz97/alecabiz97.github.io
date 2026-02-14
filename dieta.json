@@ -371,6 +371,72 @@
   ],
   [
     ["Farina per Polenta", 100], ["Filetto di Salmone Selvaggio", 130], ["Verdure", 150], ["Olio", 15]
+  ],
+  [
+    ["Pasta",105],
+    ["Ricotta di vacca",80],
+    ["Petto di pollo",70],
+    ["Pesto alla genovese",10],
+    ["Verdure",150]
+  ],
+  [
+    ["Pasta",105],
+    ["Ricotta di vacca",80],
+    ["Tonno Pinne Gialle",80],
+    ["Pesto alla genovese",10],
+    ["Verdure",150]
+  ],
+  [
+    ["Pasta",105],
+    ["Ricotta di vacca",80],
+    ["Filetto di Salmone Selvaggio",80],
+    ["Pesto alla genovese",10],
+    ["Verdure",150]
+  ],
+  [
+    ["Pasta",105],
+    ["Ricotta di vacca",80],
+    ["Uova M",44],
+    ["Albume d'uovo",90],
+    ["Verdure",150]
+  ],
+  [
+    ["Pasta",105],
+    ["Nutricotta",80],
+    ["Petto di pollo",70],
+    ["Pesto alla genovese",10],
+    ["Verdure",150],
+    ["Olio",10]
+  ],
+  [
+    ["Pasta",105],
+    ["Nutricotta",60],
+    ["Tonno Pinne Gialle",80],
+    ["Pesto alla genovese",10],
+    ["Verdure",150],
+    ["Olio",10]
+  ],
+  [
+    ["Pasta",105],
+    ["Nutricotta",70],
+    ["Filetto di Salmone Selvaggio",80],
+    ["Verdure",150],
+    ["Olio",15]
+  ],
+  [
+    ["Pasta",105],
+    ["Nutricotta",90],
+    ["Uova M",44],
+    ["Albume d'uovo",90],
+    ["Verdure",150],
+    ["Olio",10]
+  ],
+  [
+    ["Pasta",105],
+    ["Gamberetti Sgusciati",120],
+    ["Bottarga",20],
+    ["Olio",8],
+    ["Verdure",150]
   ]
               ],
         "spuntino": [
