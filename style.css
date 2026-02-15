@@ -491,3 +491,106 @@
           margin-top: 4px;
         }
       }
+
+      @media (max-width: 760px) {
+        .measure-wrap {
+          overflow-x: visible;
+          border-radius: 14px;
+        }
+
+        .measure-head {
+          padding: 14px 14px 10px;
+        }
+
+        .measure-head h3 {
+          font-size: 16px;
+        }
+
+        .measure-head p {
+          font-size: 12px;
+        }
+
+        .measure-table {
+          min-width: 0;
+          table-layout: auto;
+        }
+
+        .measure-table thead {
+          display: none;
+        }
+
+        .measure-table,
+        .measure-table tbody {
+          display: block;
+        }
+
+        .measure-table tbody tr {
+          display: block;
+          margin: 10px 12px;
+          padding: 12px;
+          border: 1px solid rgba(89, 165, 255, 0.2);
+          border-radius: 14px;
+          background: rgba(88, 195, 255, 0.06);
+        }
+
+        .measure-table th,
+        .measure-table td {
+          border-bottom: none;
+          white-space: normal;
+        }
+
+        .measure-table tbody tr:nth-child(even) td,
+        .measure-table tbody tr:hover td {
+          background: transparent;
+        }
+
+        .measure-table td {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 10px;
+          padding: 6px 0;
+          text-align: left !important;
+        }
+
+        .measure-table td::before {
+          content: attr(data-label);
+          color: var(--ink-soft);
+          font-size: 11px;
+          text-transform: uppercase;
+          letter-spacing: 0.7px;
+        }
+
+        .measure-table td.measure-name {
+          display: block;
+          padding: 0 0 10px;
+          margin-bottom: 4px;
+          border-bottom: 1px solid rgba(89, 165, 255, 0.2);
+          font-size: 14px;
+          font-weight: 700;
+          text-align: left !important;
+        }
+
+        .measure-table td.measure-name::before {
+          content: none;
+        }
+
+        .measure-table .col-value {
+          font-size: 14px;
+        }
+
+        .delta-pill {
+          min-width: 78px;
+          padding: 4px 8px;
+          font-size: 12px;
+        }
+
+        body.light .measure-table tbody tr {
+          background: rgba(255, 122, 61, 0.09);
+          border-color: rgba(255, 122, 61, 0.25);
+        }
+
+        body.light .measure-table td.measure-name {
+          border-bottom-color: rgba(255, 122, 61, 0.25);
+        }
+      }

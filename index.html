@@ -149,10 +149,10 @@
 
             return `
               <tr>
-                <td>${item.label}${unitSuffix}</td>
-                <td class="col-value">${formatMeasureValue(item.gennaio)}</td>
-                <td class="col-value">${formatMeasureValue(item.febbraio)}</td>
-                <td class="col-value"><span class="delta-pill ${deltaClass}">${formatDelta(delta)}</span></td>
+                <td class="measure-name">${item.label}${unitSuffix}</td>
+                <td class="col-value" data-label="Gennaio">${formatMeasureValue(item.gennaio)}</td>
+                <td class="col-value" data-label="Febbraio">${formatMeasureValue(item.febbraio)}</td>
+                <td class="col-value" data-label="Delta"><span class="delta-pill ${deltaClass}">${formatDelta(delta)}</span></td>
               </tr>
             `;
           })
