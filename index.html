@@ -7,7 +7,7 @@
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
-    />    <link rel="stylesheet" href="style.css" /></head>
+    />    <link rel="stylesheet" href="style.css?v=20260215-1" /></head>
   <body>
     <div class="board">
       <div class="navbar">
@@ -15,6 +15,7 @@
         <button class="nav-btn" data-category="pranzo">Pranzo</button>
         <button class="nav-btn" data-category="spuntino">Spuntino</button>
         <button class="nav-btn" data-category="cena">Cena</button>
+        <button class="nav-btn" data-category="misure">Misure</button>
         <button class="theme-toggle" id="themeToggle" aria-label="Cambia tema">🌙</button>
       </div>
 
@@ -36,14 +37,18 @@
       const boxGrid = document.getElementById("boxGrid");
       const filterSelect = document.getElementById("filterSelect");
       const themeToggle = document.getElementById("themeToggle");
+      const controls = document.querySelector(".controls");
       let currentCategory = "colazione";
       let currentCombos = [];
+      let measurements = [];
 
+      // Estrae fino a `count` combinazioni casuali da una lista.
       function pickRandomCombos(list, count = 6) {
         const shuffled = [...list].sort(() => 0.5 - Math.random());
         return shuffled.slice(0, Math.min(count, shuffled.length));
       }
 
+      // Converte un ingrediente nel formato testuale leggibile.
       function formatItem(item) {
         if (Array.isArray(item)) {
           const [name, grams] = item;
@@ -52,7 +57,9 @@
         return String(item);
       }
 
+      // Renderizza le card dei pasti nella griglia principale.
       function render(combos) {
+        boxGrid.classList.remove("measure-mode");
         boxGrid.innerHTML = "";
         combos.forEach((combo) => {
           const box = document.createElement("div");
@@ -82,6 +89,114 @@
         });
       }
 
+      // Mostra o nasconde l'area dei filtri ingredienti.
+      function setControlsVisibility(isVisible) {
+        controls.style.display = isVisible ? "flex" : "none";
+      }
+
+      // Formatta un numero in stile italiano per la tabella misure.
+      function formatMeasureValue(value) {
+        return value.toLocaleString("it-IT", { maximumFractionDigits: 2 });
+      }
+
+      // Converte un valore in numero supportando anche stringhe con virgola.
+      function toNumber(value) {
+        if (typeof value === "number") return value;
+        if (typeof value === "string") {
+          const parsed = Number(value.replace(",", ".").trim());
+          return Number.isFinite(parsed) ? parsed : NaN;
+        }
+        return NaN;
+      }
+
+      // Normalizza e valida i dati misure letti dal JSON.
+      function normalizeMeasurements(raw) {
+        if (!Array.isArray(raw)) return [];
+
+        return raw
+          .map((item) => ({
+            label: String(item.label ?? "").trim(),
+            unit: String(item.unit ?? "").trim(),
+            gennaio: toNumber(item.gennaio),
+            febbraio: toNumber(item.febbraio)
+          }))
+          .filter(
+            (item) =>
+              item.label &&
+              Number.isFinite(item.gennaio) &&
+              Number.isFinite(item.febbraio)
+          );
+      }
+
+      // Restituisce il delta con segno (+/-) e formato italiano.
+      function formatDelta(value) {
+        const abs = Math.abs(value).toLocaleString("it-IT", { maximumFractionDigits: 2 });
+        if (value > 0) return `+${abs}`;
+        if (value < 0) return `-${abs}`;
+        return "0";
+      }
+
+      // Renderizza la tabella confronto misure (Gennaio vs Febbraio + Delta).
+      function renderMeasures() {
+        setControlsVisibility(false);
+        boxGrid.classList.add("measure-mode");
+
+        const rows = measurements
+          .map((item) => {
+            const delta = item.febbraio - item.gennaio;
+            const deltaClass = delta > 0 ? "delta-positive" : "delta-negative";
+            const unitSuffix = item.unit ? ` (${item.unit})` : "";
+
+            return `
+              <tr>
+                <td>${item.label}${unitSuffix}</td>
+                <td class="col-value">${formatMeasureValue(item.gennaio)}</td>
+                <td class="col-value">${formatMeasureValue(item.febbraio)}</td>
+                <td class="col-value"><span class="delta-pill ${deltaClass}">${formatDelta(delta)}</span></td>
+              </tr>
+            `;
+          })
+          .join("");
+
+        boxGrid.innerHTML = rows
+          ? `
+            <div class="measure-wrap">
+              <div class="measure-head">
+                <h3>Confronto Misurazioni</h3>
+                <p>Andamento da Gennaio a Febbraio</p>
+              </div>
+              <table class="measure-table">
+                <thead>
+                  <tr>
+                    <th>Misura</th>
+                    <th>Gennaio</th>
+                    <th>Febbraio</th>
+                    <th>Delta</th>
+                  </tr>
+                </thead>
+                <tbody>${rows}</tbody>
+              </table>
+            </div>
+          `
+          : '<div class="hint">Nessuna misura valida trovata in <code>dieta.json</code>. Ricarica la pagina con <strong>Ctrl+F5</strong>.</div>';
+      }
+
+      // Ricarica le misure dal JSON senza cache per evitare dati vecchi nel browser.
+      async function ensureMeasurementsLoaded() {
+        if (measurements.length > 0) return;
+        try {
+          const response = await fetch(`dieta.json?t=${Date.now()}`, { cache: "no-store" });
+          const freshData = await response.json();
+          measurements = normalizeMeasurements(freshData.measurements ?? freshData.misure);
+          if (measurements.length > 0) {
+            data.measurements = measurements;
+          }
+        } catch (error) {
+          console.error("Errore nel refresh misure:", error);
+        }
+      }
+
+      // Costruisce le opzioni del filtro ingredienti in base alla categoria.
       function buildIngredientOptions(category) {
         const allIngredients = data[category]
           .flat()
@@ -102,6 +217,7 @@
         });
       }
 
+      // Uniforma il testo ingrediente per confronti e ricerca.
       function normalizeIngredient(value) {
         if (Array.isArray(value)) {
           return String(value[0]).trim().toLowerCase();
@@ -113,6 +229,7 @@
           .toLowerCase();
       }
 
+      // Applica il filtro selezionato e aggiorna le card visibili.
       function applyFilter() {
         const term = filterSelect.value.trim().toLowerCase();
 
@@ -126,40 +243,60 @@
         render(filtered);
       }
 
+      // Aggiorna lo stato attivo dei pulsanti della navbar.
       function setActiveButton(category) {
         navButtons.forEach((btn) => {
           btn.classList.toggle("active", btn.dataset.category === category);
         });
       }
 
-      function generateFor(category) {
+      // Cambia vista in base alla categoria scelta (pasti o misure).
+      async function generateFor(category) {
+        if (category === "misure") {
+          currentCategory = category;
+          setActiveButton(category);
+          await ensureMeasurementsLoaded();
+          renderMeasures();
+          return;
+        }
+
         currentCategory = category;
         setActiveButton(category);
+        setControlsVisibility(true);
         currentCombos = [...data[category]];
         buildIngredientOptions(category);
         applyFilter();
       }
 
+      // Al click sulla navbar cambia categoria e rigenera la vista.
       navButtons.forEach((btn) => {
         btn.addEventListener("click", () => {
-          generateFor(btn.dataset.category);
+          void generateFor(btn.dataset.category);
         });
       });
 
+      // Al cambio filtro aggiorna la lista dei pasti.
       filterSelect.addEventListener("change", applyFilter);
+      // Alterna tema chiaro/scuro e aggiorna l'icona del toggle.
       themeToggle.addEventListener("click", () => {
         const isLight = document.body.classList.toggle("light");
         themeToggle.textContent = isLight ? "☀️" : "🌙";
       });
+      // Carica i dati da JSON e inizializza la pagina.
       async function loadData() {
-        const response = await fetch("dieta.json");
-        data = await response.json();
-        generateFor("colazione");
+        try {
+          const response = await fetch("dieta.json?v=20260215-1", { cache: "no-store" });
+          data = await response.json();
+          measurements = normalizeMeasurements(data.measurements ?? data.misure);
+          await generateFor("colazione");
+        } catch (error) {
+          boxGrid.innerHTML =
+            '<div class="hint">Errore nel caricamento di <code>dieta.json</code>.</div>';
+          console.error(error);
+        }
       }
 
       loadData();
     </script>
   </body>
 </html>
-
-

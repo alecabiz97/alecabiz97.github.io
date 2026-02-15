@@ -78,7 +78,7 @@
 
       .navbar {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(6, minmax(0, 1fr));
         gap: 8px;
         padding: 16px;
         background: rgba(10, 15, 26, 0.85);
@@ -92,9 +92,7 @@
       }
 
       .theme-toggle {
-        position: absolute;
-        top: 14px;
-        right: 16px;
+        position: static;
         width: 42px;
         height: 42px;
         border-radius: 50%;
@@ -104,6 +102,8 @@
         font-size: 18px;
         display: grid;
         place-items: center;
+        justify-self: end;
+        align-self: center;
         cursor: pointer;
         transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
       }
@@ -203,6 +203,120 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
         gap: 16px;
+      }
+
+      .box-grid.measure-mode {
+        display: block;
+      }
+
+      .measure-wrap {
+        overflow-x: auto;
+        border-radius: 18px;
+        border: 1px solid rgba(89, 165, 255, 0.22);
+        background: var(--card);
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.28);
+        backdrop-filter: blur(10px);
+      }
+
+      .measure-head {
+        padding: 18px 18px 12px;
+        border-bottom: 1px solid rgba(89, 165, 255, 0.16);
+      }
+
+      .measure-head h3 {
+        margin: 0;
+        font-size: 18px;
+        letter-spacing: 0.4px;
+      }
+
+      .measure-head p {
+        margin: 4px 0 0;
+        color: var(--ink-soft);
+        font-size: 13px;
+      }
+
+      .measure-table {
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed;
+        min-width: 680px;
+        font-size: 14px;
+      }
+
+      .measure-table th,
+      .measure-table td {
+        padding: 12px 14px;
+        border-bottom: 1px solid rgba(89, 165, 255, 0.12);
+        text-align: left;
+        white-space: nowrap;
+      }
+
+      .measure-table th {
+        color: var(--ink-soft);
+        text-transform: uppercase;
+        letter-spacing: 0.8px;
+        font-size: 14px;
+        background: rgba(88, 195, 255, 0.08);
+      }
+
+      .measure-table th,
+      .measure-table td {
+        text-align: center;
+      }
+
+      .measure-table tr:last-child td {
+        border-bottom: none;
+      }
+
+      .measure-table tbody tr:nth-child(even) td {
+        background: rgba(88, 195, 255, 0.04);
+      }
+
+      .measure-table tbody tr:hover td {
+        background: rgba(88, 195, 255, 0.1);
+      }
+
+      .measure-table .col-value {
+        text-align: center;
+        font-variant-numeric: tabular-nums;
+      }
+
+      .delta-pill {
+        display: inline-block;
+        min-width: 90px;
+        text-align: center;
+        padding: 4px 10px;
+        border-radius: 999px;
+        border: 1px solid transparent;
+        font-weight: 700;
+      }
+
+      .delta-positive {
+        color: #32d089;
+        background: rgba(50, 208, 137, 0.14);
+        border-color: rgba(50, 208, 137, 0.4);
+      }
+
+      .delta-negative {
+        color: #ff6a73;
+        background: rgba(255, 106, 115, 0.15);
+        border-color: rgba(255, 106, 115, 0.42);
+      }
+
+      body.light .measure-head {
+        border-bottom-color: rgba(255, 122, 61, 0.22);
+      }
+
+      body.light .measure-table th {
+        background: rgba(255, 122, 61, 0.1);
+      }
+
+      body.light .measure-table tbody tr:nth-child(even) td {
+        background: rgba(255, 122, 61, 0.06);
+      }
+
+      body.light .measure-table tbody tr:hover td {
+        background: rgba(255, 122, 61, 0.12);
       }
 
       @media (min-width: 1100px) {
@@ -369,6 +483,11 @@
         }
 
         .navbar {
-          grid-template-columns: 1fr 1fr;
+          grid-template-columns: repeat(3, 1fr);
+        }
+
+        .theme-toggle {
+          justify-self: end;
+          margin-top: 4px;
         }
       }

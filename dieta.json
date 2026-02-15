@@ -624,5 +624,29 @@
 [
   ["Farina per Polenta", 75], ["Filetto di Salmone Selvaggio", 115], ["Verdure", 150], ["Olio", 15]
 ]
+        ],
+        "measurements": [
+          { "label": "Peso", "unit": "kg", "gennaio": 60.1, "febbraio": 59.7 },
+          { "label": "Plica addome", "unit": "mm", "gennaio": 16, "febbraio": 20 },
+          { "label": "Plica coscia", "unit": "mm", "gennaio": 15, "febbraio": 10 },
+          { "label": "Plica pettorale", "unit": "mm", "gennaio": 19, "febbraio": 12 },
+          { "label": "Plica ascellare", "unit": "mm", "gennaio": 13, "febbraio": 14 },
+          { "label": "Plica sovrailiaca", "unit": "mm", "gennaio": 8, "febbraio": 10 },
+          { "label": "Plica sottoscapolare", "unit": "mm", "gennaio": 16, "febbraio": 13 },
+          { "label": "Plica tricipite", "unit": "mm", "gennaio": 14, "febbraio": 12 },
+          { "label": "Somma pliche-3", "unit": "mm", "gennaio": 50, "febbraio": 42 },
+          { "label": "Somma pliche-4", "unit": "mm", "gennaio": 38, "febbraio": 35 },
+          { "label": "Somma pliche-7", "unit": "mm", "gennaio": 101, "febbraio": 91 },
+          { "label": "Circonferenza collo", "unit": "cm", "gennaio": 35.6, "febbraio": 34.5 },
+          { "label": "Circonferenza torace", "unit": "cm", "gennaio": 93, "febbraio": 91.5 },
+          { "label": "Circonferenza vita", "unit": "cm", "gennaio": 76.8, "febbraio": 78.8 },
+          { "label": "Circonferenza fianchi", "unit": "cm", "gennaio": 85.6, "febbraio": 81.7 },
+          { "label": "Braccio (dx)", "unit": "cm", "gennaio": 27.8, "febbraio": 25.7 },
+          { "label": "Coscia (dx)", "unit": "cm", "gennaio": 46, "febbraio": 45.6 },
+          { "label": "Rapporto vita/fianchi", "unit": "", "gennaio": 0.9, "febbraio": 0.96 },
+          { "label": "Indice Massa Corporea", "unit": "kg/m2", "gennaio": 19.9, "febbraio": 19.7 },
+          { "label": "Massa grassa %", "unit": "%", "gennaio": 14.52, "febbraio": 13.09 },
+          { "label": "Massa grassa", "unit": "kg", "gennaio": 8.73, "febbraio": 7.81 },
+          { "label": "Massa non grassa", "unit": "kg", "gennaio": 51.37, "febbraio": 51.89 }
         ]
       }
